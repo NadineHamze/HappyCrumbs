@@ -83,6 +83,7 @@ button{font:inherit;cursor:pointer;border:none;background:none;}
   gap:2rem;
   font-family:"Fredoka",sans-serif;
   font-weight:600;
+  font-size: 1.4rem;
   color:var(--hc-brown-dark);
 }
 .hc-nav-link{
@@ -111,7 +112,7 @@ button{font:inherit;cursor:pointer;border:none;background:none;}
   gap:0.5rem;
 }
 .btn-cta{
-  font-size:0.85rem;
+  font-size:1.2rem;
   font-weight:600;
   padding:0.45rem 0.9rem;
   border-radius:999px;
@@ -179,12 +180,12 @@ button{font:inherit;cursor:pointer;border:none;background:none;}
 .hc-hero-logo{max-width:320px;margin-inline:auto;margin-bottom:1rem;}
 .hc-hero-title{
   font-family:"Fredoka",sans-serif;
-  font-size:clamp(2rem,4vw,3.5rem);
+  font-size:clamp(5rem,4vw,3.5rem);
   color:var(--hc-orange);
   margin-bottom:0.75rem;
 }
 .hc-hero-subtitle{
-  font-size:1.125rem;
+  font-size:1.5rem;
   color:var(--hc-brown-mid);
   margin-bottom:2rem;
 }
@@ -192,7 +193,7 @@ button{font:inherit;cursor:pointer;border:none;background:none;}
   display:inline-block;
   font-family:"Fredoka",sans-serif;
   font-weight:700;
-  font-size:1.125rem;
+  font-size:1.5rem;
   padding:0.9rem 2.5rem;
   border-radius:999px;
   background:var(--hc-lavender);
