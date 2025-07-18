@@ -110,3 +110,18 @@ document.addEventListener('DOMContentLoaded', () => {
     qsa('.hc-floating').forEach(el=>el.style.animation='none');
   }
 })();
+
+(function randomizeFloating(){
+    qsa('.hc-floating').forEach(el => {
+      const size = Math.random() * 80 + 120;  // 40px - 80px
+      const left = Math.random() * 100;
+      const top = Math.random() * 100;
+      const delay = Math.random() * 20;      // 0s - 20s
+  
+      el.style.setProperty('--size', `${size}px`);
+      el.style.left = `${left}%`;
+      el.style.top = `${top}%`;
+      el.style.setProperty('--delay', `${delay}s`);
+    });
+  })();
+  
