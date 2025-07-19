@@ -458,7 +458,6 @@ button{font:inherit;cursor:pointer;border:none;background:none;}
 .hc-floating-6 { animation-name: floatUp; }
 .hc-floating-7 { animation-name: floatRight; }
 
-/* put this near the end of style.css */
 .hc-product-carousel figure figcaption{
   text-align:center;
   padding:.75rem;
@@ -472,17 +471,18 @@ button{font:inherit;cursor:pointer;border:none;background:none;}
 }
 
 .hc-price{
+  display:block;          /* forces a line break */
   font-size:1rem;
   font-weight:500;
   color:var(--hc-brown-mid);
   background:var(--hc-cream);
   padding:.25rem .5rem;
   border-radius:.5rem;
-  display:inline-block;
   transition:transform var(--hc-trans-fast);
 }
 
 .hc-product-carousel .swiper-slide:hover .hc-price{
   transform:scale(1.05);
 }
+
  
